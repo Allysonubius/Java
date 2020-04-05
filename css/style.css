@@ -20,7 +20,6 @@ h6 {
 p {
     color: black;
     font-size: 12px;
-    color: black;
 }
 
 
@@ -32,6 +31,7 @@ body {
 
 p {
     background-color: white;
+    padding: 20px;
 }
 
 h1,
@@ -41,6 +41,48 @@ h4,
 h5,
 h6 {
     background-color: brown;
+    padding: 20px;
+}
+
+
+/*MENU*/
+
+nav {
+    display: inline;
+}
+
+nav div {
+    padding-top: 1px;
+    padding-bottom: 40px;
+    background-color: green;
+}
+
+nav a img {
+    float: left;
+    padding-left: 30px;
+}
+
+nav ul a {
+    float: right;
+    font-family: verdana;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 40px;
+}
+
+nav ul a:active {
+    color: black;
+}
+
+nav ul a:hover {
+    color: black;
+}
+
+nav ul a :visited {
+    color: white;
 }
 
 
@@ -53,6 +95,9 @@ footer {
 }
 
 footer h3 {
-    padding: 20px 0 20px 0;
+    padding: 20px 50px 20px 50px;
     background-color: black;
+}
+
+
 }
