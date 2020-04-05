@@ -41,12 +41,14 @@
         <h1>Gasolina ou etanol ?</h1>
     </header>
     <!--Calculadora-->
-    <img src="img/balança.jpg" alt="calculadora flex" />
-    <form>
-        <input type="text" placeholder="Etanol" size="10" />
-
-        <input type="text" placeholder="Gasolina" size="10" />
-        <input type="button" value="Vantagem" />
+    <img src="img/balança.jpg" alt="calculadora flex" id="status" />
+    <form name="frmFlex">
+        <!--Etanol-->
+        <input type="text" placeholder="Etanol" size="10" name="txtEtanol" />
+        <!--Gasolina-->
+        <input type="text" placeholder="Gasolina" size="10" name="txtGasolina" />
+        <!--BOTOES-->
+        <input type="button" value="Vantagem" onclick="calcular()" />
         <input type="reset" value="Limpar" />
     </form>
     <script src="js/calcflex.js">
