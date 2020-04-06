@@ -97,6 +97,10 @@ img {
     max-width: 100%;
 }
 
+#fire {
+    cursor: pointer;
+}
+
 
 /*RODAPE*/
 
