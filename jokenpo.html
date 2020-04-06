@@ -8,9 +8,11 @@
     <!--favicon-->
     <linK rel="icon" href="img/js_64px.png" />
     <!--Titulo da págigna-->
-    <title>Tabuada</title>
+    <title>Jokenpo</title>
     <!--descrição do site-->
-    <meta name="description" content="Tabuada" />
+    <meta name="description" content="Jokenpo" />
+    <!--suporte aparelhos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--Style.css-->
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <!--Javascript-->
@@ -23,7 +25,7 @@
     <nav>
         <div>
             <a href="index.html">
-                <img src="img/js_64px.png" />
+                <img sarc="img/js_64px.png" />
             </a>
 
             <ul>
@@ -52,10 +54,34 @@
 
     <!--Cabeçalho-->
     <header>
-        <h1>Tabuada</h1>
+        <h1>Js inicial</h1>
     </header>
-    <!--tabuada-->
-    <script src="js/tabuada.js"></script>
+    <!--Jokenpo-->
+
+    <h3> Jogador :</h3>
+
+    <img src="img/pedra.png" alt="pedra" width="100" height="100" />
+    <img src="img/papel.png" alt="pedra" width="100" height="100" />
+    <img src="img/tesoura.png" alt="pedra" width="100" height="100" />
+    <hr/>
+    <form name="frmJokenpo">
+        <input type="radio" mame="grupo" id="pedra" />Pedra
+        <br/>
+        <input type="radio" mame="grupo" id="papel" />Papel
+        <br/>
+        <input type="radio" mame="grupo" id="tesoura" />Tesoura
+        <p>
+            <input type="button" value="jogar" onclick="jogar()" />
+            <input type="reset" value="reset" onclick="resetar()" />
+        </p>
+    </form>
+    <hr/>
+    <h3>Computador</h3>
+    <img src="img/pc.png" alt="PC" id="pc" />
+    <hr/>
+    <h3 id="placar"></h3>
+    <script src="js/jokenpo.js">
+    </script>
 
     <!--RODAPE-->
     <footer>
